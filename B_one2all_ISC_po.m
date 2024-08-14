@@ -11,8 +11,6 @@ addpath(genpath('../help_scripts'));
 
 load(fullfile(dirs.tlrc, 'ALL_tlrc_po.mat'));
 
-all_tlrc = vertcat(all_tlrc1,all_tlrc2);
-
 All_To_other_ISC = [];
 sub_id = [];
 
