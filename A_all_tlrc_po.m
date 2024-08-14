@@ -33,7 +33,6 @@ for i = 1:60
     end
 end
 
-all_tlrc1 = all_tlrc(1:1770,:);
-all_tlrc2 = all_tlrc(1771:3540,:);
+all_tlrc = all_tlrc(1:2:end,:);
 
-save(fullfile(dirs.tlrc, 'ALL_tlrc_po.mat'),'tlrc_id','all_tlrc1','all_tlrc2');
+save(fullfile(dirs.tlrc, 'ALL_tlrc_po.mat'),'tlrc_id','all_tlrc');
